@@ -1,0 +1,171 @@
+.oneme{
+	background-image: url(../img/微信.svg);
+}
+.twome{
+	background-image: url(../img/通讯录.svg);
+}
+.threeme{
+	background-image: url(../img/发现.svg);
+}
+.fourme{
+	background-image: url(../img/我绿.svg);
+}
+.a1me{
+	color: #000000;
+}
+.a2me{
+	color: #000000;
+}
+.a3me{
+	color: #000000;
+}
+.a4me{
+	color: #1afa29;
+}
+
+.header1{
+	width: 100vw;
+	height: 19vh;
+	background-color: rgb(237,237,237);
+	display: flex;
+	margin: 0 auto;
+	align-items: center;
+	flex-wrap: wrap;
+	line-height: 7vh;
+}
+.screen>p{
+	margin-left: 2.3vw;
+	font-size: 1vh;
+	color: transparent;
+}
+.camera{
+	width: 100vw;
+	height: 8vh;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.camera>img{
+	width: 4.8vmin;
+	height: 4.8vmin;
+	margin-right: 3.6vw;
+	
+}
+.individual{
+	width: 100vw;
+	height: 11vh;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+}
+.header1>p{
+	font-size: 1.4vmax;
+	margin-left: 2vw;
+}
+
+.header1>img:nth-child(2){
+	width: 3vmin;
+	height: 3vmin;
+	margin-left: 16vw;
+}
+.header1>img:nth-child(3){
+	width: 3vmin;
+	height: 3vmin;
+	margin-left: 2vw;
+}
+.main1{
+		width: 100vw;
+		height: 68vh;
+		background-color: rgb(237,237,237);
+		overflow: scroll;
+		display: flex;
+		justify-content: space-around;
+		overflow: hidden;
+}
+.photo3{
+	width: 31vw;
+	height: 8.2vh;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-right: 1vw;
+}
+.name3{
+	width: 69vw;
+	height: 8.2vh;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	
+	
+}
+.photo3>img{
+	width: 7vh;
+	height: 7vh;
+	border-radius: 3.1vw;
+}
+
+.name3>p:nth-child(1){
+	height: 6vw;
+	font-size: 4.5vw;
+	font-weight: bold;
+	margin-top: -0.8vw;
+}
+.wechatname{
+	width: 68vw;
+	height: 4vh;
+	display: flex;
+	justify-content: space-between;
+}
+.wechatname>p{
+	font-size: 3vw;
+	margin-top: -0.8vw;
+	height: 0;
+}
+.wechatname>img{
+	width: 3vh;
+	height: 4vh;
+	margin-left: 3vw;
+
+}
+.wechatname>span{
+	font-size: 7vw;
+	margin-right: 2.9vw;
+	margin-top: 0.7vw;
+	color: rgb(200,200,200);;
+}
+.mephoto>img{
+	width: 3vh;
+	height: 3vh;
+}
+.me{
+	width: 100vw;
+	height: 62vh;
+	background-color: rgb(237,237,237);
+	display: flex;
+	flex-wrap: wrap;
+	
+	align-content: flex-start;
+}
+.me>li{
+	width: 100vw;
+	height: 10.2vh;
+	display: flex;
+	justify-content: center;
+	
+}
+.me>p{
+	margin-left: 2.3vw;
+	font-size: 3vw;
+	color: transparent;
+}
+.me2>p>span{
+	/* padding-left: 17vw; */
+	color: rgb(200,200,200);
+	line-height: 10vh;
+	margin-right: 4vw;
+	font-size: 7vw;
+}

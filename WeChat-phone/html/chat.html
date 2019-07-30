@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>WeChat</title>
+		<link rel="stylesheet" type="text/css" href="../css/wechat.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/find.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/address_book.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/chat.css"/>
+		<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+		<script src="../js/chat.js" type="text/javascript"></script>
+		<script ></script>
+	</head>
+		<body>
+		<div class="screen">
+			<!-- 状态栏 -->
+			<div class="status_bar">
+				<div class="signal">
+					<img src="../img/信号.svg" alt="">
+					<img src="../img/信号.svg" alt="">
+					<p>15k/s</p>
+				</div>
+				<div class="time">
+					<p>18:53</p>
+				</div>
+				<div class="other">
+					<img src="../img/WiFi.svg" alt="">
+					<img src="../img/铃声-静音.svg" alt="">
+					<p>49%</p>
+					<img src="../img/电池电量.svg" alt="">
+				</div>
+			</div>
+			<!-- 微信头部 -->
+			<div class="header" id="chat">
+				<a href="../wechat.html" target="_self">
+					<p class="fa fa-angle-left"></p>
+					<p>习主席</p>
+				</a>
+				<img src="" alt="">
+				<img src="../img/省略.svg" alt="">
+			</div>
+			<!-- 主体	 -->
+			<audio controls id="say">
+			  <source src="../mp3/习近平寄语.mp3" type="audio/mp3">
+			</audio>
+			<div class="main_chat" id="speak">
+
+				<div class="speak1" id="speak1">
+					<!-- <div class="left">
+						<p>主席您好</p>
+						<img src="../img/对话框.svg" alt="">
+					</div>
+					<div class="right">
+						<img src="../img/head_erhuo.jpg" alt="">
+					</div> -->
+				</div>
+				<div class="speak2" id="speak2">
+					<!-- <div class="left1">
+						<img src="../img/习主席.jpg" alt="">
+					</div>
+					<div class="right1">
+						<img src="../img/对话框白.svg" alt="">
+						<p>哦，小贰同志你好，你最近表现不错，要好好努力</p>
+					</div> -->
+				</div>
+				
+				<div class="speak3" id="speak3">
+					<!-- <div class="left3 left">
+						<p>谢谢您的夸奖</p>
+						<img src="../img/对话框.svg" alt="">
+					</div>
+					<div class="right3 right">
+						<img src="../img/head_erhuo.jpg" alt="">
+					</div> -->
+				</div>
+				<div class="speak2" id="speak4">
+					<!-- <div class="left1">
+						<img src="../img/习主席.jpg" alt="">
+					</div>
+					<div class="right4 right1" onclick="say()">
+						<img src="../img/对话框白.svg" alt="">
+						<p>
+							<img src="../img/说话.svg" alt="">
+							59″
+						</p>
+					</div> -->
+				</div>
+				
+				<div class="speak5 speak3" id="speak5">
+					<!-- <div class="left5 left">
+						<p>嗯，是，您说的对，青年一代应该有理想、有本领、有担当，这样国家才能够长治久安。</p>
+						<img src="../img/对话框.svg" alt="">
+					</div>
+					<div class="right5 right">
+						<img src="../img/head_erhuo.jpg" alt="">
+					</div> -->
+				</div>
+				
+				<div class="speak2 speak6" id="speak6">
+					<!-- <div class="left1">
+						<img src="../img/习主席.jpg" alt="">
+					</div>
+					<div class="right1 right6">
+						<img src="../img/对话框白.svg" alt="">
+						<p>行，小贰同志今天就说到这，再见</p>
+					</div> -->
+				</div>
+				
+				
+				<div class="speak7 speak5 speak3" id="speak5">
+					<!-- <div class="left7 left5">
+						<img src="../img/告辞.jpg" alt="">
+					</div>
+					<div class="right5 right">
+						<img src="../img/head_erhuo.jpg" alt="">
+					</div> -->
+				</div>
+				
+			</div>
+			
+			
+			<!-- footer区 -->
+			<div class="footer_chat">
+				<div class="voice">
+				</div>
+				<div class="text">
+					<p id="send">主席您好</p>
+				</div>
+				<div class="face" onclick="face()">
+				</div>
+				<div class="send" onclick="send()">
+					<p>发送</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

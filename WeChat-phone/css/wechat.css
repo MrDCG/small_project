@@ -1,0 +1,246 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #F0F8FF;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+.screen{
+	/* display: flex; */
+	width: 100vw;
+	height: 100vh;
+	/* border: 0.1vw solid black; */
+	margin: 0 auto;
+	background-color:rgb(237,237,237);
+}
+.status_bar{
+	width: 100vw;
+	height: 3vh;
+	background-color: rgb(189,189,189);
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+}
+.signal{
+	width: 22.2vw;
+	height: 4vh;
+	display: flex;
+	align-items: center;
+}
+.signal>img{
+	width: 4.8vmin;
+	height: 6.8vmin;
+}
+.signal>p{
+	font-size: 4.1vmin;
+}
+.time>p{
+	font-size: 4.1vmin;
+}
+.other{
+	width: 31.2vw;
+	height: 4vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.other>img{
+	width: 4.8vmin;
+	height: 6.8vmin;
+}
+
+.other>p{
+	font-size: 4.1vmin;
+}
+
+.header{
+	width: 100vw;
+	height: 8vh;
+	background-color: rgb(237,237,237);
+	display: flex;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: space-around;
+	line-height: 7vh;
+}
+
+.header>p{
+	font-size: 2.4vmax;
+	width: 45vw;
+	/* margin-left: 2vw; */
+	padding-left: 5vw;
+	
+}
+.weright{
+	width: 30vw;
+	padding-left: 50vw;
+	display: flex;
+	align-items: center;
+}
+.weright>img:nth-child(1){
+	width: 5.5vmin;
+	height: 5.5vmin;
+}
+.weright>img:nth-child(2){
+	width: 6.5vmin;
+	height: 6.5vmin;
+	margin-left: 2vw;
+}
+.main{
+		width: 100vw;
+		height: 80vh;
+		background-color: rgb(237,237,237);
+		/* overflow: scroll; */
+		display: flex;
+		justify-content: space-between;
+		overflow-x: hidden;
+		overflow: auto;
+		/* -webkit-overflow-scrolling: touch; */
+		/* overflow-y: hidden; */
+}
+.message{
+	width: 100vw;
+	height: 79vh;
+	background-color: white;
+}
+.message>li{
+	width: 100vw;
+	height: 10.2vh;
+	display: flex;
+	
+}
+.c5{
+	color: #000000;
+}
+.c5>li{
+	width: 100vw;
+	height: 10.2vh;
+	display: flex;
+}
+
+.photo{
+	width: 21vw;
+	height: 10.2vh;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-right: 1vw;
+	
+}
+.name{
+	width: 78vw;
+	height: 10.2vh;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	
+	
+}
+.photo>img{
+	width: 8vh;
+	height: 8vh;
+	border-radius: 5.1vw;
+}
+.speak{
+	width: 73vw;
+	height: 6.2vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.speak>p:nth-child(1){
+	font-size: 4vw;	
+}
+.speak>p:nth-child(2){
+	font-size: 4vw;	
+	margin-right: 1vw;
+}
+.name>p:nth-child(1){
+	font-size: 1vw;
+	margin-top: 1.4vw;
+	height: 1vw;
+}
+/* .name>p:nth-child(2){
+	font-size: 0.7vw;
+	margin-top: 1.4vw;
+	margin-left: 14vw;
+	height: 1vw;
+	flex-direction: row;
+	align-self: flex-end;
+} */
+.name>p:nth-child(2){
+	margin-top: -1.4vw;
+	font-size: 3vw;
+	width: 75vw;
+	border-bottom: 0.05vw solid rgba(20,20,20,0.4);
+}
+.footer{
+	width: 100vw;
+	height: 9vh;
+	background-color:white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.wechat{
+	width: 20.6vw;
+	height: 15.1vw;
+	background-color: transparent;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.wechat>a{
+	font-size: 3.8vw;
+	
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.wechat>a>img{
+	width: 1.8vw;
+	height: 1.8vw;
+}
+.imgs{
+	width: 17.8vw;
+	height: 9.8vw;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 7.8vw 6.8vw;
+}
+.one{
+	background-image: url(../img/微信绿.svg);
+}
+
+.two{
+	width: 10vw;
+	height: 9.8vw;
+	background-image: url(../img/通讯录.svg);
+}
+.three{
+	background-image: url(../img/发现.svg);
+}
+.four{
+	background-image: url(../img/我.svg);
+	margin-top: 0.3vh;
+}
+.a1{
+	color: #1afa29;
+}
+.a2{
+	color: #000000;
+}
+.a3{
+	color: #000000;
+}
+.a4{
+	color: #000000;
+}

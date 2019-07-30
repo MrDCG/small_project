@@ -1,0 +1,126 @@
+.oneadd{
+	background-image: url(../img/微信.svg);
+}
+.twoadd{
+	background-image: url(../img/通讯录绿.svg);
+}
+
+.a1add{
+	color: #000000;
+}
+.a2add{
+	color: #1afa29;
+}
+.address_book{
+	width: 96vw;
+	height: 79vh;
+	background-color: rgb(237,237,237);
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	
+}
+.address_book>li{
+	width: 96vw;
+	height: 10.2vh;
+	display: flex;
+	justify-content: center;
+	
+}
+.photo1{
+	margin-left: 0.4vw;
+	width: 21vw;
+	height: 10.2vh;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* padding-right: 1vw; */
+}
+.name1{
+	width: 79vw;
+	height: 10.2vh;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	
+	
+}
+.photo1>img{
+	width: 5vh;
+	height: 5vh;
+	border-radius: 0.8vw;
+	background-color: skyblue;
+}
+.address_book>li:nth-child(1)>.photo1>img{
+	width: 5vh;
+	height: 5vh;
+	border-radius: 0.8vw;
+	background-color: yellow;
+}
+.address_book>li:nth-child(2)>.photo1>img{
+	width: 5vh;
+	height: 5vh;
+	border-radius: 0.8vw;
+	background-color: greenyellow;
+}
+.address_book>li:nth-child(3)>.photo1>img{
+	width: 5vh;
+	height: 5vh;
+	border-radius: 0.8vw;
+	background-color: skyblue;
+}
+.address_book>li:nth-child(4)>.photo1>img{
+	width: 5vh;
+	height: 5vh;
+	border-radius: 0.8vw;
+	background-color: skyblue;
+}
+.name1>p:nth-child(1){
+	width: 96vw;
+	font-size: 4vw;
+	/* margin-top: 1.4vw; */
+	line-height: 21vw;
+	
+}
+.address_book>p{
+	margin-left: 7.3vw;
+	font-size: 4vw;
+}
+.letter1{
+	width: 3vw;
+	height: 65vh;
+	background-color: transparent;
+}
+.letter{
+	margin-top: 3.5vh;
+	width: 1.8vw;
+	height: 65vh;
+	background-color: transparent;
+	position: fixed;
+}
+.letter2{
+	width: 1vw;
+	height: 74vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 3.8vw;
+}
+.line{
+	border-bottom: 0.1vw solid rgba(20,20,20,0.4);
+}
+.count{
+	width: 100vw;
+	height: 8vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.count>p{
+	font-size: 2vh;
+}
+#header_add>img:nth-child(2){
+	margin-left: 14.7vw;
+}

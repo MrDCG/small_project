@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>WeChat</title>
+		<link rel="stylesheet" type="text/css" href="../css/wechat.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/find.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/address_book.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/me.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/Circle_Of_Friend.css"/>
+		<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+		<script src="../js/frieng_circle.js" type="text/javascript"></script>
+		<script src="../js/jquery.min.js" type="text/javascript"></script>
+	</head>
+		<body>
+		<div class="screen">
+			<!-- 状态栏 -->
+			<div class="status_bar">
+				<div class="signal">
+					<img src="../img/信号.svg" alt="">
+					<img src="../img/信号.svg" alt="">
+					<p>15k/s</p>
+				</div>
+				<div class="time">
+					<p>18:53</p>
+				</div>
+				<div class="other">
+					<img src="../img/WiFi.svg" alt="">
+					<img src="../img/铃声-静音.svg" alt="">
+					<p>49%</p>
+					<img src="../img/电池电量.svg" alt="">
+				</div>
+			</div>
+			<!-- 微信头部 -->
+			
+			<!-- 主体	 -->
+			<div class="main2" onscroll="scroll()" id="scroll">
+				<div class="header2">
+					<div class="camera1" id="camera1">
+						<a href="find.html" target="_self">
+							<i class="fa fa-angle-left" id="zuo"></i>
+						</a>
+						<img src="../img/相机.svg" alt="">
+					</div>
+				</div>
+				<div class="bcgimg">
+					<img src="../img/惊艳.png" alt="">
+					
+				</div>
+				<div class="head_photo">
+					<p>贰货不二</p>
+					<img src="../img/head_erhuo.jpg" alt="">
+				</div>
+				<ul class="friend">
+					<li>
+						<div class="photo_head">
+							<img src="../img/习主席.jpg" alt="">
+						</div>
+						<div class="talk">
+							<p class="friend_name">习主席</p>
+							<p class="friend_message">
+								这个小伙子相当不错，有担当、有能力，是个能做大事的人。以后好好干，定是国家栋梁。
+							</p>
+							<p class="at">
+								提到了：贰货不二
+							</p>
+							<div class="other_message">
+								<div class="time_del">
+									<p>55分钟前</p>
+								</div>
+								<div class="like_frame"  id="frame1">
+									<p class="fa fa-heart-o">赞</p>
+									<p class="fa fa-comment-o">评论</p>
+								</div>
+								<div class="unfold" onclick="extend1()">
+									●●
+								</div>
+							</div>
+							<div class="like">
+								♡ 贰货不二
+							</div>
+							<div class="comment">
+								<p class="speak_name">
+									贰货不二：
+								</p>
+								<p class="speak_comment">
+									主席过奖了
+								</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="photo_head p2">
+							<img src="../img/A2.jpg" alt="">
+						</div>
+						<div class="talk t2">
+							<p class="friend_name">a boy</p>
+							<p class="friend_message">
+								我失恋了(ಥ_ಥ)
+							</p>
+							<p class="at a2">
+								1
+							</p>
+							<div class="other_message">
+								<div class="time_del">
+									<p>59分钟前</p>
+								</div>
+								<div class="like_frame"  id="frame2">
+									<p class="fa fa-heart-o">赞</p>
+									<p class="fa fa-comment-o">评论</p>
+								</div>
+								<div class="unfold" onclick="extend2()">
+									●●
+								</div>
+							</div>
+							<div class="like">
+								♡ 贰货不二、a girl
+							</div>
+							<div class="comment">
+								<p class="speak_name">
+									贰货不二：
+								</p>
+								<p class="speak_comment">
+									好好活下去
+								</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="photo_head">
+							<img src="../img/马云.jpg" alt="">
+						</div>
+						<div class="talk">
+							<p class="friend_name">马云</p>
+							<p class="friend_message">
+								这小伙子是阿里的，谁也别想跟我争！
+							</p>
+							<p class="at">
+								提到了：贰货不二
+							</p>
+							<div class="other_message">
+								<div class="time_del">
+									<p>2小时前</p>
+								</div>
+								<div class="like_frame"  id="frame3">
+									<p class="fa fa-heart-o">赞</p>
+									<p class="fa fa-comment-o">评论</p>
+								</div>
+								<div class="unfold" onclick="extend3()">
+									●●
+								</div>
+							</div>
+							<div class="like">
+								♡ 贰货不二、马化腾、李彦宏
+							</div>
+							<div class="comment">
+								<p class="speak_name">
+									马化腾：
+								</p>
+								<p class="speak_comment">
+									他是腾讯的
+								</p>
+							</div>
+							<div class="comment">
+								<p class="speak_name">
+									李彦宏：
+								</p>
+								<p class="speak_comment">
+									你俩滚犊子，从现在起百度是他的
+								</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="photo_head">
+							<img src="../img/A4.jpeg" alt="">
+						</div>
+						<div class="talk">
+							<p class="friend_name">a girl</p>
+							<p class="friend_message">
+								今天真是高兴的一天呢！
+							</p>
+							<div class="picture">
+								<img src="../img/blog06.jpg" alt="">
+							</div>
+							<p class="at a2">
+								2
+							</p>
+							<div class="other_message">
+								<div class="time_del">
+									<p>3小时前</p>
+								</div>
+								<div class="like_frame"  id="frame4">
+									<p class="fa fa-heart-o">赞</p>
+									<p class="fa fa-comment-o">评论</p>
+								</div>
+								<div class="unfold" onclick="extend4()">
+									●●
+								</div>
+							</div>
+							<div class="like">
+								♡ 贰货不二
+							</div>
+							<div class="comment">
+								<p class="speak_name">
+									贰货不二：
+								</p>
+								<p class="speak_comment">
+									今天是挺好的
+								</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="photo_head">
+							<img src="../img/F1.jpg" alt="">
+						</div>
+						<div class="talk">
+							<p class="friend_name">Forever</p>
+							<p class="friend_message">
+								闲看花开，静待花落。冷暖自知，干净如始。
+							</p>
+							<div class="picture pp1">
+								<img src="../img/blog11.jpg" alt="">
+								<img src="../img/welcome-cover.jpg" alt="">
+							</div>
+							<p class="at a2">
+								2
+							</p>
+							<div class="other_message">
+								<div class="time_del">
+									<p>一天前</p>
+								</div>
+								<div class="like_frame"  id="frame5">
+									<p class="fa fa-heart-o">赞</p>
+									<p class="fa fa-comment-o">评论</p>
+								</div>
+								<div class="unfold" onclick="extend5()">
+									●●
+								</div>
+							</div>
+							<div class="like">
+								♡ a boy、贰货不二、a girl
+							</div>
+							<div class="comment">
+								<p class="speak_name">
+									a boy：
+								</p>
+								<p class="speak_comment">
+									美女你好
+								</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="photo_head">
+							<img src="../img/艾艾.jpg" alt="">
+						</div>
+						<div class="talk">
+							<p class="friend_name">艾艾</p>
+							<p class="friend_message">
+								好好学习，天天向上。
+							</p>
+							<p class="at a2">
+								2
+							</p>
+							<div class="other_message">
+								<div class="time_del">
+									<p>两天前</p>
+								</div>
+								<div class="like_frame"  id="frame6">
+									<p class="fa fa-heart-o">赞</p>
+									<p class="fa fa-comment-o">评论</p>
+								</div>
+								<div class="unfold" onclick="extend6()">
+									●●
+								</div>
+							</div>
+							<div class="like">
+								♡ a boy、贰货不二、a girl
+							</div>
+							<div class="comment">
+								<p class="speak_name">
+									a boy：
+								</p>
+								<p class="speak_comment">
+									学习有啥好的
+								</p>
+							</div>
+							<div class="comment">
+								<p class="speak_name">
+									艾艾：
+								</p>
+								<p class="speak_comment">
+									滚
+								</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="photo_head">
+							<img src="../img/Trump.jpg" alt="">
+						</div>
+						<div class="talk">
+							<p class="friend_name">Trump</p>
+							<p class="friend_message">
+								Really, you come to America, you become President
+							</p>
+							<div class="picture pp2">
+								<img src="../img/trump4.jpg" alt="">
+							</div>
+							<p class="at">
+								提到了：贰货不二
+							</p>
+							<div class="other_message">
+								<div class="time_del">
+									<p>三天前</p>
+								</div>
+								<div class="like_frame"  id="frame7">
+									<p class="fa fa-heart-o">赞</p>
+									<p class="fa fa-comment-o">评论</p>
+								</div>
+								<div class="unfold" onclick="extend7()">
+									●●
+								</div>
+							</div>
+							<div class="like">
+								♡ 贰货不二
+							</div>
+							<div class="comment">
+								<p class="speak_name">
+									贰货不二：
+								</p>
+								<p class="speak_comment">
+									切，不去
+								</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="photo_head">
+							<img src="../img/head_erhuo.jpg" alt="">
+						</div>
+						<div class="talk">
+							<p class="friend_name">贰货不二</p>
+							<p class="friend_message">
+								我的热情，嘿嘿，好像一把火
+							</p>
+							
+							<p class="at a2">
+								提到了：贰货不二
+							</p>
+							<div class="other_message">
+								<div class="time_del">
+									<p>三天前</p>
+									<p>删除</p>
+								</div>
+								<div class="like_frame"  id="frame8">
+									<p class="fa fa-heart-o">赞</p>
+									<p class="fa fa-comment-o">评论</p>
+								</div>
+								<div class="unfold" onclick="extend8()">
+									●●
+								</div>
+							</div>
+							<div class="like">
+								♡ 贰货不二、a girl
+							</div>
+							<div class="comment">
+								<p class="speak_name">
+									a boy：
+								</p>
+								<p class="speak_comment">
+									你个混蛋！！！
+								</p>
+							</div>
+							<div class="comment">
+								<p class="speak_name">
+									贰货不二：
+								</p>
+								<p class="speak_comment">
+									？？
+								</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

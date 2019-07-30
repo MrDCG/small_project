@@ -1,0 +1,300 @@
+.header2{
+	width: 100vw;
+	height: 8vh;
+	background-color: transparent;
+	/* display: flex; */
+	margin: 0 auto;
+	/* justify-content: center;
+	flex-wrap: wrap;
+	line-height: 7vh; */
+	position: fixed;
+}
+.camera1{
+	width: 100vw;
+	height: 8vh;
+	background-color: rgba(20,20,20,0.3);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+.camera1>img{
+	width: 6.8vmin;
+	height: 5.8vmin;
+	margin-right: 3.6vw;
+	
+}
+#zuo{
+	width: 3.8vmin;
+	height: 5.8vmin;
+	font-size: 6.8vmin;
+	color: #000000;
+	margin-left: 2vw;
+	margin-top: 1vw;
+}
+.camera1>a{
+	width: 6.8vmin;
+	height: 7.8vmin;
+	font-size: 4.8vmin;
+	color: #000000;
+}
+
+.main2{
+		width: 100vw;
+		height: 97vh;
+		background-color: white;
+		overflow: scroll;
+		/* display: flex;
+		justify-content: space-around; */
+		overflow-x: hidden;
+}
+.bcgimg{
+	width: 100vw;
+	height: 32vh;
+}
+.bcgimg>img{
+	width: 100vw;
+	height: 32vh;
+}
+.head_photo{
+	width: 95vw;
+    height: 7vh;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-top: -4vh;
+	background-color: transparent;
+}
+.head_photo>img{
+	width: 7vh;
+	height: 7vh;
+	border-radius: 3.1vw;
+	
+}
+.head_photo>p{
+	text-align: center;
+	color: black;
+	font-size: 5.1vw;
+	height: 6vh;
+	width: 22vw;
+	font-weight: bold;
+	
+}
+.friend{
+	width: 100vw;
+	height: 58vh;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.friend>li{
+	width: 100vw;
+	height: 23vh;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 0.05vw solid rgba(20,20,20,0.4); 
+	margin-top: 1vh;
+}
+
+.photo_head{
+	width: 18vw;
+	height: 22vh;
+	
+	display: flex;
+	justify-content: center;
+}
+.talk{
+	width: 82vw;
+	height: 22vh;
+	background-color: white;
+}
+.photo_head>img{
+	width: 6vh;
+	height: 6vh;
+	border-radius: 3.1vw;
+}
+.friend_name{
+	display: flex;
+	align-items: center;
+	font-size: 4vw;
+	font-weight: bold;
+	line-height: 4vh;
+	color: #40E0D0;
+}
+.friend_message{
+	font-size: 4vw;
+
+}
+.at{
+	line-height: 8.9vw;
+	font-size: 2.9vw;
+}
+.other_message{
+	width: 77vw;
+	height: 2vh;
+	display: flex;
+	justify-content: space-between;
+	cursor: pointer;
+}
+.time_del{
+	width: 27vw;
+	height: 2vh;
+	display: flex;
+	justify-content: space-between;
+}
+.time_del>p{
+	font-size: 2.9vw;
+}
+.time_del>p:nth-child(2){
+	color: blue;
+}
+.unfold{
+	width: 8vw;
+	height: 2.5vh;
+	font-size: 2.9vw;
+	background-color: rgb(200,200,200);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0.2vw;
+	color: rgb(130,130,130);
+}
+.like{
+	width: 76vw;
+	height: 3vh;
+	font-size: 2.9vw;
+	cursor: pointer;
+	background-color: rgba(180,180,180,0.5);
+	line-height: 3vh;
+	margin-top: 1.2vh;
+	padding-left: 1vw;
+	border-bottom: 0.05vw solid rgba(20,20,20,0.4); 
+}
+.comment{
+	width: 76vw;
+	height: 3vh;
+	font-size: 2.9vw;
+	padding-left: 1vw;
+	cursor: pointer;
+	background-color: rgb(180,180,180,0.5);
+	line-height: 3vh;
+	display: flex;
+	
+}
+.comment>p:nth-child(1){
+	color: cornflowerblue;
+	font-weight: bold;
+
+}
+.friend>li:nth-child(2){
+	height: 20.7vh;
+}
+.p2{
+	height: 20.7vh;
+}
+.t2{
+	height: 20.7vh;
+}
+.a2{
+	opacity: 0;
+}
+.friend>li:nth-child(3){
+	height: 23.3vh;
+}
+.friend>li:nth-child(4){
+	height: 37.3vh;
+}
+.friend>li:nth-child(4)>.talk{
+	height: 37.3vh;
+}
+.friend>li:nth-child(4)>.photo_head{
+	height: 37.3vh;
+}
+.picture{
+	margin-top: 2vh;
+	width: 82vw;
+	height: 15vh;
+	/* display: flex;
+	justify-content: space-around;
+	align-items: center; */
+}
+.picture>img{
+	width: 66vw;
+	height: 15vh;
+}
+.pp1{
+	width: 82vw;
+	height: 7vh;
+}
+.pp1>img{
+	width: 30vw;
+	height: 8vh;
+}
+.friend>li:nth-child(5){
+	height: 29.3vh;
+}
+.friend>li:nth-child(5)>.talk{
+	height: 29vh;
+}
+.friend>li:nth-child(5)>.photo_head{
+	height: 29.3vh;
+}
+.pp2{
+	width: 82vw;
+	height: 7vh;
+}
+.pp2>img{
+	width: 30vw;
+	height: 7vh;
+}
+.friend>li:nth-child(7){
+	height: 30vh;
+}
+.friend>li:nth-child(7)>.talk{
+	height: 29vh;
+}
+.friend>li:nth-child(7)>.photo_head{
+	height: 30vh;
+}
+.like_frame{
+	width: 34vw;
+	height: 4vh;
+	background-color: black;
+	/* background-image: url(../img/对话框背景.svg); */
+	background-repeat: no-repeat;
+	/* background-position: center; */
+	background-size: 10vw 4vh;
+	border-radius: 0.5vw;
+	color: white;
+	font-size: 3vw;
+	/* display: flex; */
+	justify-content: space-around;
+	align-items: center;
+}
+#frame1{
+	display: none;
+}
+#frame2{
+	display: none;
+}
+#frame3{
+	display: none;
+}
+#frame4{
+	display: none;
+}
+#frame5{
+	display: none;
+}
+#frame6{
+	display: none;
+}
+#frame7{
+	display: none;
+}
+#frame8{
+	display: none;
+}
